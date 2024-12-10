@@ -1,0 +1,120 @@
+.payments-page {
+  max-width: 1800px; /* Increased max-width */
+  margin: 0 auto;
+  padding: 2rem;
+  
+  h1, h2 {
+    margin-bottom: 1.5rem; /* Increased spacing */
+    text-align: center;    /* Centered headings */
+  }
+
+  .plan-comparison {
+    margin-bottom: 3rem; /* Increased margin */
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th, td {
+        padding: 1rem; /* Increased padding */
+        border: 1px solid #ddd;
+        text-align: center; /* Center text */
+      }
+
+      th {
+        background-color: #f1f3f5; /* Slightly darker background for better contrast */
+      }
+
+      .upgrade-btn {
+        padding: 0.5rem 1rem;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px; /* Rounded button corners */
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+
+  .features-breakdown {
+    margin-bottom: 3rem;
+  
+    h2 {
+      text-align: left; /* Align heading to the left */
+    }
+  
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      text-align: left; /* Align feature list to the left */
+      
+      li {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0;
+        font-size: 1.1rem;
+        
+        /* Add icon styling (Font Awesome example) */
+        &:before {
+          content: "\f00c"; /* Font Awesome check icon */
+          font-family: "Font Awesome 5 Free"; /* Ensure you're using Font Awesome */
+          font-weight: 900;
+          color: #007bff;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  
+
+  .payment-form {
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      input {
+        padding: 1rem;
+        font-size: 1.1rem;
+        border: 1px solid #ddd;
+        border-radius: 4px; /* Rounded inputs */
+      }
+
+      button {
+        padding: 1rem;
+        font-size: 1.1rem;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    padding: 1rem;
+
+    table, th, td {
+      font-size: 0.9rem; /* Smaller text for smaller screens */
+    }
+
+    .payment-form {
+      input, button {
+        font-size: 1rem;
+        padding: 0.8rem;
+      }
+    }
+  }
+}

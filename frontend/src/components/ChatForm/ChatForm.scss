@@ -1,0 +1,95 @@
+
+.form__wrapper {
+  width: 100%;
+  background-color: #f9f9f9;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textarea-wrapper {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dropdown {
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.textarea {
+  flex-grow: 1;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 14px;
+  padding: 5px;
+  color: #333;
+  min-height: 30px;
+  background-color: transparent;
+}
+
+.send-button {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.send-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.send-icon {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.chat__footer {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #0073e6;
+}
+
+.underline:hover {
+  color: #004a99;
+}

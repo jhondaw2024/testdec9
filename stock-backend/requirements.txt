@@ -1,0 +1,15 @@
+fastapi==0.95.2
+pydantic==1.10.7
+bcrypt==3.2.2
+pymongo==4.3.3
+python-jose==3.3.0
+secure-smtplib
+email-validator==1.2.1
+stripe==3.0.0
+yfinance==0.2.26
+openai==0.27.0
+pdfkit==1.0.0
+fastapi[security]==0.95.2
+uvicorn==0.22.0
+python-multipart==0.0.6
+passlib[bcrypt]

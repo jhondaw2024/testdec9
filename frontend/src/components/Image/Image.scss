@@ -1,0 +1,19 @@
+.messageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    
+    .messageImg {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .messageText {
+      font-size: 1rem;
+      color: #333;
+    }
+  }
+  

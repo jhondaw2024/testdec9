@@ -1,0 +1,57 @@
+.logout-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  
+    h1 {
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      margin-bottom: 1rem;
+    }
+  
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+  
+      button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &.logout-btn {
+          background-color: #dc3545;
+          color: white;
+  
+          &:hover {
+            background-color: #c82333;
+          }
+        }
+  
+        &.stay-btn {
+          background-color: #28a745;
+          color: white;
+  
+          &:hover {
+            background-color: #218838;
+          }
+        }
+      }
+    }
+  
+    .countdown {
+      font-style: italic;
+      color: #6c757d;
+    }
+  
+    .goodbye-message {
+      font-weight: bold;
+      color: #007bff;
+    }
+  }

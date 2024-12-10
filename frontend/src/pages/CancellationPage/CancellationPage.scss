@@ -1,0 +1,90 @@
+.cancellation-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+  
+      select, textarea {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1rem;
+      }
+  
+      textarea {
+        min-height: 100px;
+      }
+  
+      button {
+        align-self: center;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+  
+        &:hover {
+          background-color: #c82333;
+        }
+      }
+    }
+  
+    .retention-offer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #f8f9fa;
+      border-radius: 5px;
+      text-align: center;
+  
+      button {
+        margin: 0.5rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+  
+        &:first-of-type {
+          background-color: #28a745;
+          color: white;
+  
+          &:hover {
+            background-color: #218838;
+          }
+        }
+  
+        &:last-of-type {
+          background-color: #6c757d;
+          color: white;
+  
+          &:hover {
+            background-color: #5a6268;
+          }
+        }
+      }
+    }
+  
+    .final-message {
+      margin-top: 2rem;
+      text-align: center;
+  
+      a {
+        color: #007bff;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }

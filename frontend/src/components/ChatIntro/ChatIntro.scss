@@ -1,0 +1,101 @@
+.chatIntroContainer {
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 2.5rem;
+    
+    @media screen and (min-width: 640px) {
+      margin-top: 20vh;
+      margin-bottom: 4rem;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      color: #2d3748; // equivalent to text-gray-800
+      font-weight: 600;
+      
+      &.dark {
+        color: #f7fafc; // equivalent to text-gray-100
+      }
+    }
+  }
+  
+  .itemsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem; // gap-3.5
+    align-items: center;
+    
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    
+    .item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.875rem; // gap-3.5
+      margin-bottom: 2rem;
+      flex: 1;
+      
+      @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+      }
+      
+      h2 {
+        display: flex;
+        gap: 0.875rem; // gap-3.5
+        color: #2d3748;
+        align-items: center;
+        font-size: 1.125rem;
+        font-weight: 400;
+        margin: 0 auto;
+        
+        &.dark {
+          color: #f7fafc;
+        }
+        
+        @media screen and (min-width: 768px) {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+      }
+      
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.875rem; // gap-3.5
+        width: 100%;
+        max-width: 20rem;
+        margin: 0 auto;
+        
+        button {
+          width: 100%;
+          background-color: #f9fafb; // equivalent to bg-gray-50
+          padding: 0.75rem;
+          border-radius: 0.375rem; // rounded-md
+          
+          &.dark {
+            background-color: rgba(255, 255, 255, 0.05); // dark:bg-white/5
+          }
+          
+          &:hover {
+            background-color: #e2e8f0; // hover:bg-gray-200
+            
+            &.dark {
+              background-color: #000000; // dark:hover:bg-black
+            }
+          }
+          
+          &.noHover {
+            cursor: default;
+          }
+          
+          &.hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  

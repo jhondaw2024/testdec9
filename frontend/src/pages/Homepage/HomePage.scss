@@ -1,0 +1,90 @@
+.home-page {
+  position: relative;
+  top: 5rem;
+  padding: 2rem;
+  background-color: #f8f9fa; // Light background for contrast
+  border-radius: 10px; // Softer edges
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+  text-align: center; // Center text within the box
+  transition: transform 0.3s ease; // Smooth transition for hover effects
+
+ 
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #343a40; // Darker text for better readability
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #6c757d; // Lighter color for subtitle
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    input {
+      padding: 0.75rem; // Better usability
+      font-size: 1rem;
+      border: 1px solid #ced4da; // Subtle border
+      border-radius: 8px; // Softer corners
+      transition: border-color 0.3s; // Smooth transition
+
+      &:focus {
+        border-color: #007bff; // Highlight border on focus
+        outline: none; // Remove default outline
+      }
+    }
+
+    button {
+      padding: 0.75rem; // Increased padding
+      font-size: 1rem;
+      background-color: #007bff; // Primary color
+      color: white;
+      border: none;
+      border-radius: 8px; // Softer corners
+      cursor: pointer;
+      transition: background-color 0.3s; // Smooth transition
+
+      &:hover {
+        background-color: #0056b3; // Darker blue on hover
+      }
+    }
+  }
+
+  .google-signup {
+    padding: 0.75rem; // Increased padding
+    font-size: 1rem;
+    background-color: #f44242; // Red color for Google signup
+    color: white;
+    border: none;
+    border-radius: 8px; // Softer corners
+    cursor: pointer;
+    transition: background-color 0.3s; // Smooth transition
+
+    &:hover {
+      background-color: #c0392b; // Darker red on hover
+    }
+  }
+
+  .login-link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+
+    a {
+      color: #007bff; // Link color
+      text-decoration: none;
+      transition: text-decoration 0.3s; // Smooth transition
+
+      &:hover {
+        text-decoration: underline; // Underline on hover
+      }
+    }
+  }
+}
+
+

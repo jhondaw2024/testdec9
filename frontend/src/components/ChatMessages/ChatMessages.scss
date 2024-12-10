@@ -1,0 +1,15 @@
+.chatMessages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem; // gap between messages
+    background-color: #f9fafb; // equivalent to light gray background
+    
+    .messagesContainer {
+      flex: 1;
+    }
+  }
+  
